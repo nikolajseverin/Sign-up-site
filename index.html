@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+
+<body>
+  <div class="everything">
+    <header>
+      <img class="logo" src="images/logo.svg" alt="logo">
+      <h1>We are launching <span>soon!</span></h1>
+      <h3 class="h1-sub">Subscribe and get notified</h3>
+    </header>
+    <main>
+      <div class="search-area">
+        <input class="search-field" type="text" placeholder="Your email address...">
+        <button class="button" onclick="validate()">Notify Me</button>
+      </div>
+      <p class="email-verification"></p>
+      <img class="preview" src="./images/illustration-dashboard.png" alt="example-website">
+    </main>
+    <footer>
+      <div class="so-me">
+        <i class="fa-brands fa-facebook-f" style="color: #4f7df3;" id="facebook"></i>
+        <i class="fa-brands fa-twitter" style="color: #4f7df3;"></i>
+        <i class="fa-brands fa-instagram" style="color: #4f7df3;"></i>
+      </div>
+      <p class="copyrights">&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
